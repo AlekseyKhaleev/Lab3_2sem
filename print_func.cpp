@@ -35,7 +35,7 @@ void PrintHeader(char *argv[]) {
             "\n",
             "***********************************************************\n",
             "* Nizhniy Novgorod Technical University                   *\n",
-            "* Study work number 2. Task number 8. Semester number 2.  *\n",
+            "* Study work number 3. Task number 8. Semester number 2.  *\n",
             "* Performed student 21-IVTz Khaleev Aleksey               *\n",
             "***********************************************************\n",
             "\n"};
@@ -168,7 +168,7 @@ void PrintHelpScreen(const std::string &reason) {
     std::string help_screen[] =
             {
                     bright_on_text,
-                    "      Lab2 is a table reader/constructor, made by Khaleev Aleksey\n\n",
+                    "      Lab3_2 is a table reader/constructor, made by Khaleev Aleksey\n\n",
                     "       This app will help you create and view tables containing\n",
                     "             the characteristics of your fleet of PC's\n",
                     bright_off_text,
@@ -178,10 +178,10 @@ void PrintHelpScreen(const std::string &reason) {
                     "        -r [N] [file_name] : read spreadsheet mode\n\n",
                     "N – the number of records;\n",
                     "file_name – file name or full path to save/read the table;\n\n",
-                    "Example1: /home/username/Lab1   -h\n",
-                    "Example2: /home/username/Lab1   --help\n",
-                    "Example3: /home/username/Lab1   -c 10 my_table\n",
-                    "Example4: /home/username/Lab1   -r 5 my_table\n",
+                    "Example1: /home/username/Lab3_2   -h\n",
+                    "Example2: /home/username/Lab3_2   --help\n",
+                    "Example3: /home/username/Lab3_2   -c 10 my_table\n",
+                    "Example4: /home/username/Lab3_2   -r 5 my_table\n",
                     bright_on_text,
                     "                             IMPORTANT!",
                     bright_off_text,
